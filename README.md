@@ -1,22 +1,23 @@
-# Info Checker
+# Info Checker 🖥️
 
-Script simples em Python para listar arquivos e pastas do diretório do usuário, junto com algumas informações básicas do sistema.
+Este é um script em Python que faz uma verificação simples do sistema local. Ele:
 
-## Objetivo
-Esse projeto é um exercício para reforçar manipulação do sistema com o módulo `os` e iniciar práticas de automação e auditoria local.
+- Mostra o nome do usuário logado
+- Mostra o caminho da execução do script
+- Navega até a pasta Home do usuário
+- Lista todos os arquivos e pastas presentes no diretório
 
-## Funcionalidades
-- Detecta sistema operacional
-- Mostra nome do usuário
-- Lista arquivos e pastas da home
-- Mostra data e hora da execução
-
-## Tecnologias
+### Tecnologias usadas:
 - Python 3
-- Módulo os
-- Módulo platform
+- Módulo `os`
 
-## Como executar
+### Objetivo
+Este projeto demonstra familiaridade com manipulação de arquivos e diretórios no sistema operacional usando Python. É um exemplo simples de como interagir com o sistema e acessar variáveis de ambiente.
+
+---
+
+### Execução
+Para rodar o script:
 ```bash
-python info_checker.py
+python3 projeto_os.py
 
